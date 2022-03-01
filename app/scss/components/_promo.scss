@@ -1,0 +1,61 @@
+.promo {
+	background: $pal-color;
+
+
+	&__inner {
+		padding: 70px 0 138px;
+		position: relative;
+
+	}
+
+	&__content {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 130%;
+		position: relative;
+		z-index: 1;
+	}
+
+	&__content-uptitle {
+		color: $title-color;
+		line-height: 182%;
+
+	}
+
+	&__content-title {
+		font-size: 65px;
+		font-weight: 700;
+		line-height: 100%;
+		color: $accent-color;
+		max-width: 600px;
+		text-transform: uppercase;
+	}
+
+	&__content-descr {
+		max-width: 400px;
+		line-height: 120%;
+		margin: 17px 0 57px;
+	}
+
+	&__content-links {
+		display: flex;
+	}
+
+	&__img {
+		position: absolute;
+		bottom: 0;
+		right: -22px;
+	}
+}
+
+.container {}
+
+.promo-btn {}
+
+.btn {}
+
+.btn__reg {
+	margin-right: 20px;
+}
+
+.btn__learn {}

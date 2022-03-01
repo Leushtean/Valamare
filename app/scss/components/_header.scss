@@ -1,0 +1,102 @@
+.header {
+
+	&__social {
+	}
+
+	&__social-item {
+		width: 29px;
+		height: 29px;
+		&~&{
+			margin-left: 20px;
+		}
+	}
+
+	&__lang-box {
+		background: linear-gradient(to right, #009A49 33%, rgb(240, 240, 240) 33%, rgb(240, 240, 240) 66%, #FF7900 66%);
+		width: 40px;
+		height: 25px;
+		margin-right: 25px;
+		margin-left: 67px;
+		position: relative;
+		&::after{
+			position: absolute;
+			content: "";
+			background-image: url(../../images/icons/lang_arrow.svg);
+			background-repeat: no-repeat;
+			width: 11px;
+			height: 7px;
+			top: 10px;
+			right: -25px;
+		}
+	}
+
+	&__bottom {
+		padding: 27px 0 23px;
+		font-weight: 500;
+	}
+
+	&__bottom-nav {
+	}
+
+	&__bottom-list {
+		display: flex;
+	}
+
+	&__bottom-item {
+		&~&{
+			margin-left: 67px;
+		}
+	}
+
+	&__bottom-link {}
+
+}
+
+.icon{
+	width: 29px;
+	height: 29px;
+}
+.header-top {
+	padding: 12px 0 9px;
+	border-bottom: 1px solid $accent-color;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+		span{
+			font-size: 10px;
+			padding-left: 11px;
+			max-width: 140px;
+			line-height: 146%;
+			position: relative;
+			top: 4px;
+		}
+	}
+
+	&__phone {
+		font-size: 25px;
+		font-weight: 500;
+		color: $title-color;
+		padding-left: 50px;
+		margin-right: 80px;
+		margin-left: auto;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			background-image: url(../../images/icons/tel.svg);
+			background-repeat: no-repeat;
+			width: 28px;
+			height: 28px;
+			top: 0;
+			left: 0;
+		}
+	}
+}

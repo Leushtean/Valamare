@@ -1,11 +1,14 @@
-$accent-color: #ffef35;
-$title-color: #363838;
+$accent-color: #55A630;
+$pal-color: #ECFFEB;
+$title-color: #424242;
+$text-color: rgba(#424242, .8);
 $default-color: #5a5a5a;
 $footer-color: #a1a1a1;
 $footercon-color: #dfdfdf;
-$footertext-color: #707070;
+$purple-color: #4340B4;
+$white: #FFF;
 
-$ff2: "", sans-serif;
+$ff2: "raleway", sans-serif;
 
 @mixin overflow($line-clamp) {
 	overflow: hidden;
@@ -14,13 +17,13 @@ $ff2: "", sans-serif;
 	-webkit-line-clamp: $line-clamp;
 }
 
-@function max($numbers...) {
-	@return m#{a}x(#{$numbers});
-}
+// @function max($numbers...) {
+// 	@return m#{a}x(#{$numbers});
+// }
 
-@function min($numbers...) {
-	@return m#{i}n(#{$numbers});
-}
+// @function min($numbers...) {
+// 	@return m#{i}n(#{$numbers});
+// }
 
 // .content>*:not(:last-child) {
 // 	margin-bottom: 35px;
