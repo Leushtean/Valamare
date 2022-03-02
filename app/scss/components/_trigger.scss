@@ -1,0 +1,36 @@
+.sec2 .trigger-block__list {
+	margin-top: -25px;
+	position: relative;
+}
+
+.trigger-block {
+
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: $white;
+		padding: 50px 45px;
+		box-shadow: -2px 2px 20px 0px rgba(66, 66, 66, 0.15);
+		border-radius: 14px;
+	}
+
+	&__item {
+		text-align: center;
+	}
+}
+
+.t1 {
+	font-size: 45px;
+	font-weight: 700;
+	color: $accent-color;
+	margin-bottom: 8px;
+}
+
+.t2 {
+	font-size: 23px;
+	line-height: 121%;
+	color: $title-color;
+	max-width: 200px;
+}
