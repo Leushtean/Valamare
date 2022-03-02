@@ -1,6 +1,10 @@
-.card-first-slider {}
+.card-first-slider {
+	overflow: hidden;
+	
+}
 
-.swiper-wrapper {}
+.swiper-wrapper {
+}
 
 .swiper-slide {
 	background: #FFFFFF;
@@ -61,15 +65,17 @@
 
 	&__tt5 {
 		font-size: 15px;
+		line-height: 98%;
 		font-weight: 400;
 		color: $text-color;
 		padding-left: 9px;
 		border-left: 2px solid $purple-color;
 		margin-left: 11px;
+		max-width: 150px;
 		
 
-		& p {
-			margin-bottom: 10px;
+		& p+p {
+			margin-top: 8px;
 		}
 	}
 
@@ -104,5 +110,38 @@
 	height: 56px;
 	width: 100%;
 }
+.icon_swiper{
+	width: 14px;
+	height: 22px;
+	fill: $purple-color;
+	&:hover{
+		fill: $accent-color;
+	}
+}
+.first-slider-prev{
+	background: transparent;
+}
+.first-slider-next{
+	background: transparent;
+}
 
-.swiper-pagination {}
+.swiper-pagination-bullet{
+}
+
+
+.first-slider-pagination {
+}
+
+.sl-pg{
+	display: flex;
+	justify-content: center;
+	span{
+		width: 15px;
+		height: 15px;
+		background: $accentp-color;
+		opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+		&.swiper-pagination-bullet-active{
+			background: $accent-color;
+		}
+	}
+}
