@@ -8,6 +8,7 @@ body {
 	font-size: 16px;
 	line-height: 1;
 	font-weight: 400;
+	letter-spacing: -0.4px;
 	color: $default-color;
 	background-color: #fff;
 	overflow-x: hidden;
@@ -52,15 +53,17 @@ body {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-.df{
+
+.df {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.ibg{
+.ibg {
 	position: relative;
-	img{
+
+	img {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -70,7 +73,7 @@ body {
 	}
 }
 
-.ttc{
+.ttc {
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 50%;
@@ -79,4 +82,12 @@ body {
 a,
 button {
 	transition: 0.25s;
+}
+
+.title {
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 80%;
+	color: $title-color;
+	text-align: center;
 }

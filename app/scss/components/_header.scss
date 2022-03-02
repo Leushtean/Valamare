@@ -54,7 +54,7 @@
 	width: 29px;
 	height: 29px;
 	fill: $accent-color;
-	transition: fill .25s;
+	transition: filter .25s;
 	&:hover{
 		filter: brightness(85%);
 	}
